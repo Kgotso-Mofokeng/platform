@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>platform</title>
+    <link rel="stylesheet" href="D:\Projects\platform\resources\css\style.css">
+    <script src="D:\Projects\platform\js\script.js" defer></script>
+</head>
+<body>
+    
+    <!--First Div Container-->
+    <div class = "container">
+        <!--Second Div  Keep track of amount in platform-->
+        <div class = "balance">
+            Balance: $<span id="balance">0</span>
+        </div>
+        <button onclick="window.location.href='https://paystack.com/pay/pynow'">Deposit</button> <!--Deposit button, onclick takes us to payStack payment portal-->
+        <button onclick="withdraw()">Withdraw</button> <!--Withdraw button, onclick run the withdraw() function-->
+    </div>
+
+</body>
+
+</html>

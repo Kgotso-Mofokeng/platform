@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+   
+}
+
+.container {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.balance {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:first-of-type {
+    background-color: green;
+    color: white;
+}
+
+button:last-of-type {
+    background-color: red;
+    color: white;
+}
